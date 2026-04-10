@@ -1,0 +1,17 @@
+{
+    "repository": {
+        "repositoryArn": "arn:aws:ecr:us-east-1:640768198786:repository/ai-blog-agent",
+        "registryId": "640768198786",
+        "imageTagMutability": "MUTABLE",
+        "imageScanningConfiguration": {
+            "scanOnPush": false
+        },
+        "encryptionConfiguration": {
+            "encryptionType": "AES256"
+        }
+    }
+}
+
+
+Repository: 640768198786.dkr.ecr.us-east-1.amazonaws.com/ai-blog-agent:latest
+Digest:     sha256:7c728f571b64178fd26b3ee5c7e935ddabcb7a1f2080364d049f4d2f89f9f993
