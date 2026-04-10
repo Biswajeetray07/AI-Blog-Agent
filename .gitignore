@@ -1,5 +1,26 @@
+# Environment & Secrets
 .env
 *.pem
+
+# Python
 __pycache__/
-*.log
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Output (generated blogs & images)
+output/
+
+# Notes & Logs
 *.txt
+!requirements.txt
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
