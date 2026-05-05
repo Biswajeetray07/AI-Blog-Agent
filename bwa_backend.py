@@ -122,7 +122,7 @@ class State(TypedDict):
 # --- NVIDIA API LLM initialization ---
 llm = ChatOpenAI(
     model="mistralai/mistral-large-3-675b-instruct-2512",
-    api_key=os.environ.get("NVIDIA_API_KEY", ""),
+    api_key=os.environ.get("NVIDIA_API_KEY") or "dummy_key",
     base_url="https://integrate.api.nvidia.com/v1",
     max_tokens=4096,
     temperature=0.20,
